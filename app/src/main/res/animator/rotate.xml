@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<objectAnimator
+    android:propertyName="rotation"
+    android:duration="1000"
+    android:valueFrom="0"
+    android:valueTo="-360"
+    android:valueType="floatType"
+    android:repeatMode="reverse"
+    android:repeatCount="1"
+    />
+</set>
+
+<!-- propertyName rotation rotates clockwise or anticlockwise
+     propertyName rotationX rotates object along the X-axis
+     propertyName rotationY rotates the object along the Y-axis
+     -->

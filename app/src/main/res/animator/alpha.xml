@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<objectAnimator
+    android:propertyName="alpha"
+    android:duration="1500"
+    android:valueFrom="1.0"
+    android:valueTo="0.0"
+    android:valueType="floatType"
+    android:repeatMode="reverse"
+    android:repeatCount="1"
+
+/>
+</set>
+
+        <!-- repeatMode gives the method of repetition while repeatCount provides a way to show the number of times the animation repeats -->
